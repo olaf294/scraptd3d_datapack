@@ -1,0 +1,3 @@
+execute if score $scrap scrap_b matches 12500000.. run give @p warden_spawn_egg[can_place_on=[{blocks:"chiseled_tuff_bricks"}],item_name='{"bold":true,"color":"#220C91","text":"Blue Laser","underlined":true}',attribute_modifiers=[{id:"5fa0a40d-9dee-40e6-9ff4-a04456cbdf9d",type:"block_interaction_range",amount:5,operation:"add_multiplied_base",slot:"hand"}],entity_data={id:"minecraft:armor_stand",Tags:["bl","defense"]}] 1
+execute if score $scrap scrap_b matches 12500000.. run scoreboard players add $scrap scrap_s_b 750000
+execute if score $scrap scrap_b matches 12500000.. run scoreboard players remove $scrap scrap_b 12500000

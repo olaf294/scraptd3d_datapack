@@ -1,0 +1,3 @@
+execute if score $scrap scrap_r matches 1500000000.. run give @p llama_spawn_egg[can_place_on=[{blocks:"chiseled_tuff_bricks"}],item_name='{"bold":true,"color":"#631300","text":"Gatling Gun II","underlined":true}',attribute_modifiers=[{id:"block_interaction_range",type:"block_interaction_range",amount:5,operation:"add_multiplied_base",slot:"hand"}],entity_data={id:"minecraft:armor_stand",Tags:["ggii","defense"]}] 1
+execute if score $scrap scrap_r matches 1500000000.. run scoreboard players add $scrap scrap_s_r 90000000
+execute if score $scrap scrap_r matches 1500000000.. run scoreboard players remove $scrap scrap_r 1500000000

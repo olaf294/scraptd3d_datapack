@@ -1,0 +1,3 @@
+execute if score $scrap scrap_r matches 1000.. run give @p allay_spawn_egg[can_place_on=[{blocks:"chiseled_tuff_bricks"}],item_name='{"bold":true,"color":"#22A187","text":"Square Blue","underlined":true}',attribute_modifiers=[{id:"09380461-da02-4bef-8c6e-4a3b4b023e58",type:"block_interaction_range",amount:5,operation:"add_multiplied_base",slot:"hand"}],entity_data={id:"minecraft:armor_stand",Tags:["sb","defense"]}] 1
+execute if score $scrap scrap_r matches 1000.. run scoreboard players add $scrap scrap_s_r 120
+execute if score $scrap scrap_r matches 1000.. run scoreboard players remove $scrap scrap_r 1000

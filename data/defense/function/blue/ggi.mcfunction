@@ -1,0 +1,3 @@
+execute if score $scrap scrap_b matches 20000.. run give @p llama_spawn_egg[can_place_on=[{blocks:"chiseled_tuff_bricks"}],item_name='{"bold":true,"color":"#801900","text":"Gatling Gun I","underlined":true}',attribute_modifiers=[{id:"block_interaction_range",type:"block_interaction_range",amount:5,operation:"add_multiplied_base",slot:"hand"}],entity_data={id:"minecraft:armor_stand",Tags:["ggi","defense"]}] 1
+execute if score $scrap scrap_b matches 20000.. run scoreboard players add $scrap scrap_s_b 1200
+execute if score $scrap scrap_b matches 20000.. run scoreboard players remove $scrap scrap_b 20000

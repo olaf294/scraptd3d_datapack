@@ -1,0 +1,3 @@
+execute if score $scrap scrap_r matches 2000000.. run give @p mooshroom_spawn_egg[can_place_on=[{blocks:"chiseled_tuff_bricks"}],item_name='{"bold":true,"color":"#EB5A05","text":"Double Pain","underlined":true}',attribute_modifiers=[{id:"5fa0a40d-9dee-40e6-9ff4-a04456cbdf9d",type:"block_interaction_range",amount:5,operation:"add_multiplied_base",slot:"hand"}],entity_data={id:"minecraft:armor_stand",Tags:["dp","defense"]}] 1
+execute if score $scrap scrap_r matches 2000000.. run scoreboard players add $scrap scrap_s_r 120000
+execute if score $scrap scrap_r matches 2000000.. run scoreboard players remove $scrap scrap_r 2000000

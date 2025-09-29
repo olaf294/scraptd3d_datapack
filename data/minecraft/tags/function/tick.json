@@ -1,0 +1,20 @@
+{
+	"values": [
+		"code:tick",
+		"code:misc/misc_tick",
+		"code:misc/scoreboard_styles",
+		"code:defense/defense_tick",
+		"code:defense/defense_removal",
+		"code:defense/new_defense_placement/sb",
+		"code:misc/labels",
+
+		"ui_elements:tick",
+
+		"queue:do_stuff",
+
+		"gameplay:actionbar/blue",
+
+		"gameplay:scrap/scrap",
+		"gameplay:gametime"
+	]
+}

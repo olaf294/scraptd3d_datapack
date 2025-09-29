@@ -1,0 +1,3 @@
+execute if score $scrap scrap_b matches 200000.. run give @p piglin_spawn_egg[can_place_on=[{blocks:"chiseled_tuff_bricks"}],item_name={"bold":true,"color":"#EB5A05","text":"Airstrike","underlined":true},entity_data={id:"minecraft:armor_stand",Tags:["ast"]}] 1
+execute if score $scrap scrap_b matches 200000.. run scoreboard players add $scrap scrap_s_b 12000
+execute if score $scrap scrap_b matches 200000.. run scoreboard players remove $scrap scrap_b 200000
